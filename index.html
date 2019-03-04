@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Info Kontak Saya</title>
+    </head>
+    <body>
+        <h1>Info Kontak Saya</h1>
+        <p>Alamat           : Perumahan Bumi Batara Mawang Blok A3 no.2</p>
+        <p>Nomor Telepon    : 082197986086</p>
+        <p>Alamat Email     : irsyadair11@gmail.com</p>
+        <br> 
+        <hr>
+        <form action="contact.html" method="GET">
+            <label>Tanggal Lahir  : </label><input type="date" name="date">
+            <br>
+            <label>Nama : </label><input type="text" name="name" placeholder="Masukkan Nama">
+            <br>
+            <label>Email : </label><input type="email" name="email" placeholder="Masukkan Email">
+            <br>
+            <label>Pesan : </label> <br> <textarea name="message" placeholder="Masukkan pesan"></textarea>
+            <br>
+            <label>Warna Kesukaan : </label><input type="color" name="color">
+            <br>
+            <input type="radio" value="Pria" name="Gender"> Pria <input type="radio" value="Wanita" name="Gender"> Wanita
+            <br>
+            <label>Pendidikan Terakhir</label>
+            <select name="Pendidikan Terakhir">
+                <option>SMA</option><option>SMP</option><option>SD</option><option>Tidak Sekolah</option>
+            </select>
+            <br>
+            <input type="submit" value="submit" name="send">
+        </form>
+    </body>
+</html>
